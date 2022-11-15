@@ -7,17 +7,22 @@ import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.co
 import {EmployeesFaceComponentModule} from "./ui/employees-face/employees-face.component-module";
 import {EmployeeService} from "./services/employee.service";
 import {EmployeeServiceModule} from "./services/employee.service-module";
+import {ProjectServiceModule} from "./services/project.service-module";
+import {ProjectlistComponentModule} from "./ui/projectlist/projectlist.component-module";
+
 
 @NgModule({
   declarations: [AppComponent],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        HttpClientModule,
-        EmployeeListComponentModule,
-        EmployeeServiceModule,
-        EmployeesFaceComponentModule,
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    EmployeeListComponentModule,
+    EmployeeServiceModule,
+    EmployeesFaceComponentModule,
+    ProjectlistComponentModule,
+    ProjectServiceModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

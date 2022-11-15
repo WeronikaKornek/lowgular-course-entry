@@ -1,7 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { EmployeeModel } from '../../model/employee.model';
 import { EmployeeService } from '../../services/employee.service';
 import {PersonModel} from "../../model/person.model";
 
@@ -16,4 +14,3 @@ export class EmployeesFaceComponent {
   constructor(private _employeeService: EmployeeService) {
   }
 }
-
