@@ -13,4 +13,8 @@ export class EmployeeListComponent {
   title: string = 'Tekst który pojawi się w html';
   constructor(private _employeeService: EmployeeService) { }
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
+
+  remove(id:string){
+    this._employeeService.delete(id).subscribe()
+  }
 }
