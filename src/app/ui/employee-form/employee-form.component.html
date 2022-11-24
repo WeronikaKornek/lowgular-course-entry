@@ -1,8 +1,21 @@
-  <form [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
-  <input type="text" formControlName="name" placeholder="Name">
-  <input type="number" formControlName="age" placeholder="Age">
-  <input type="number" formControlName="salary" placeholder="Salary">
-  <input type="submit" [disabled]="employeeForm.invalid" value="submit">
-</form>
 
+<div class="container" style="margin-top:40px;">
+  <h1>Add new employee</h1>
+  <form [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
+    <div class="mb-3">
+    <input type="text" class="form-control"  formControlName="name" placeholder="Name">
+    </div>
+    <div class="mb-3">
+    <input type="number" class="form-control" formControlName="age" placeholder="Age">
+    </div>
+    <div class="mb-3">
+    <input type="number" class="form-control" formControlName="salary" placeholder="Salary">
+    </div>
+    <div class="mb-3">
+    <input type="submit" class="btn btn-primary" [disabled]="employeeForm.invalid" value="Submit">
+    </div>
+
+
+  </form>
+</div>
 

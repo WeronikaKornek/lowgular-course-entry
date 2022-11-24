@@ -1,6 +1,7 @@
-<h1>Employee list</h1>
-<ul *ngIf="data$ | async as data; else empty">
-  <li *ngFor="let employee of data">{{ employee.personalNumber }}: {{ employee.name }}: Email:  {{employee.mail}} <button (click)="remove(employee.personalNumber)">Remove me</button></li>
-</ul>
 
-<ng-template #empty> There is no data </ng-template>
+<div class="container" style="margin-top:30px">
+  <h1>Employee list</h1>
+<ul class="list-group" *ngIf="data$ | async as data">
+  <li class="list-group-item" *ngFor="let employee of data">{{ employee.personalNumber }}: {{ employee.name }}: Email:  {{employee.mail}} <button class="btn btn-primary" (click)="remove(employee.personalNumber)">Remove me</button></li>
+</ul>
+</div>
