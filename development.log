@@ -11950,3 +11950,194 @@
 	"level": "info",
 	"message": "[API] Response ok: angular-component/create"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 294
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "YEVTcy9Evm",
+			"correlationId": "DWq7SzSpBC",
+			"clickedPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 294
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for routing/add: {
+	"action": "routing/add",
+	"params": {
+		"routeName": "",
+		"componentFile": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "YEVTcy9Evm",
+			"correlationId": "DWq7SzSpBC",
+			"clickedPath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for routing/add"
+}
+[info] [CLI] Calling Command routing/add: {
+	"funcParams": {
+		"routeName": "",
+		"componentFile": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command routing/add"
+}
+[info] [CommandBus]: Dispatching command AddRouteCommand: {
+	"commandName": "AddRouteCommand",
+	"payload": {
+		"routingFilePath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/app-routing.module.ts",
+		"routeName": "",
+		"componentFile": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"relatedModulePaths": [
+			"C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddRouteCommand"
+}
+[info] [CommandBus]: Handled  AddRouteCommand: {
+	"commandName": "AddRouteCommand",
+	"payload": {
+		"routingFilePath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/app-routing.module.ts",
+		"routeName": "",
+		"componentFile": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"relatedModulePaths": [
+			"C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddRouteCommand"
+}
+[info] [CLI] Called Command routing/add: {
+	"message": "[CLI] Called Command routing/add",
+	"level": "info"
+}
+[info] [API] Response ok: routing/add: {
+	"result": {
+		"filePath": "C:/Users/Weronika/Desktop/lowgular-course/lowgular-course-entry/src/app/app-routing.module.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: routing/add"
+}
