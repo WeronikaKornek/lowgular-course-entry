@@ -4,7 +4,7 @@
 
 <ul class="list-group" *ngIf="data$ | async as data">
   <li class="list-group-item" *ngFor="let employee of data">
-    <a routerLink="/employee-details/{{ employee.personalNumber }}/{{ employee.name }}" >
+    <a routerLink="/employee-details/{{ employee.personalNumber }}" >
       {{ employee.personalNumber }} {{ employee.name }}
     </a>
       <button class="btn btn-primary" (click)="remove(employee.personalNumber)">Remove me</button></li>

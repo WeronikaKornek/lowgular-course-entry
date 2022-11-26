@@ -1,4 +1,4 @@
 export interface EmployeeDetailsParamsModel {
-  readonly id: string;
+  readonly personalNumber: string;
   readonly name:string;
 }
